@@ -5,3 +5,9 @@
     --brand_dark_gray: #303030;
     --brand_light_gray: #797979;
 }
+
+/* common rules */
+a {
+    text-decoration: none;
+    color: black;
+}

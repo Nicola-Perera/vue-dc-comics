@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>test</h1>
     <Header />
     <Main />
     <Footer />
@@ -31,10 +30,38 @@ export default {
 //   color: #2c3e50;
 //   margin-top: 60px;
 
+/* resete rules */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Greta Sans Condensed Bold","Greta Sans Bold",Arial,sans-serif;
+}
+
+/* palette colori */
+:root {
+    --brand_blue: #0282F9;
+    --brand_black: #1C1C1C;
+    --brand_dark_gray: #303030;
+    --brand_light_gray: #797979;
+}
+
+// columns
+.main_margin {
+  width: 70%;
+  margin: auto;
+}
+
+.container > .row {
+    display: flex;
+}
+
+// selected items
+.active {
+  border-bottom: 3px solid var(--brand_blue);
+  a {
+    color: var(--brand_blue)
+  }
 }
 
 @import '../src/assets/scss/style.css';
