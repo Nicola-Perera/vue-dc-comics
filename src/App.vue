@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header>
-    <Main>
-    <Footer>
+    <Header />
+    <Main />
+    <Footer />
   </div>
 </template>
 
@@ -14,7 +14,9 @@ import Footer from './components/SiteFooter.vue';
 export default {
   name: 'app',
   components: {
-
+    Header,
+    Main,
+    Footer,
   },
 };
 </script>
