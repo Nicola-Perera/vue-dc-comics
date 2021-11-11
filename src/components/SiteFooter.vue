@@ -59,12 +59,32 @@
             </div>
 
             <!-- logo -->
-            <!-- <div id="logo">
+            <div id="logo">
               <img src="../img/dc-logo-bg.png" alt="">
-            </div> -->
+            </div>
         </div>
       </div>
     </div>
+
+      <!-- socials -->
+      <div id="social_section">
+
+        <div class="container main_margin">
+          <div class="row">
+            <a id="sign" href="">SIGN-UP NOW!</a>
+            <div id="socials" class="container">
+              <div class="row">
+              <a href="" id="follow">FOLLOW US</a>
+              <a href=""><img src="../img/footer-facebook.png" alt=""></a>
+              <a href=""><img src="../img/footer-twitter.png" alt=""></a>
+              <a href=""><img src="../img/footer-youtube.png" alt=""></a>
+              <a href=""><img src="../img/footer-pinterest.png" alt=""></a>
+              <a href=""><img src="../img/footer-periscope.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
     </div>
 </template>
 
@@ -78,15 +98,22 @@ export default {
 </script>
 
 <style lang="scss">
+
+// links section
 #link_section {
   background-image: url('../img/footer-bg.jpg');
-  padding: 2rem 0;
+
+  // links
   .row.links {
     width: 40%;
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: .8rem;
   }
+  .links {
+      padding: 2rem 0;
+    }
+
   h2 {
     color: white;
     margin-bottom: 1rem;
@@ -98,5 +125,41 @@ export default {
       color: #797979;
     }
   }
+      // logo in background
+    #logo {
+      width: 60%;
+      height: 100%;
+      background-image: url('../img/dc-logo-bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      img {
+        width: 70%;
+      }
+    }
+  }
+
+  // social section
+  #social_section {
+    padding: 1rem 0;
+      background-color: #303030;
+    .container.main_margin > .row {
+      justify-content: space-between;
+      align-items: center;
+      #sign {
+        padding: 1rem;
+        color: white;
+        border: 2px solid #0282F9;
+      }
+    #socials {
+      width: 35%;
+      .row {
+          justify-content: space-between;
+          align-items: center;
+          #follow {
+            color: #0282F9;
+          }
+        }
+      }
+    }
   }
 </style>
