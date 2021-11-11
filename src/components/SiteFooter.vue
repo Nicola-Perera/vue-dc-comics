@@ -59,9 +59,9 @@
             </div>
 
             <!-- logo -->
-            <div id="logo">
+            <!-- <div id="logo">
               <img src="../img/dc-logo-bg.png" alt="">
-            </div>
+            </div> -->
         </div>
       </div>
     </div>
@@ -80,11 +80,20 @@ export default {
 <style lang="scss">
 #link_section {
   background-image: url('../img/footer-bg.jpg');
+  padding: 2rem 0;
+  .row.links {
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: .8rem;
+  }
   h2 {
-    color: white;;
+    color: white;
+    margin-bottom: 1rem;
     }
   li {
     list-style: none;
+    margin-bottom: .3rem;
     a {
       color: #797979;
     }
