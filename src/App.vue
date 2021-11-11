@@ -48,7 +48,7 @@ export default {
 
 // columns
 .main_margin {
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
@@ -58,7 +58,7 @@ export default {
 
 // selected items
 .active {
-  border-bottom: 3px solid var(--brand_blue);
+  border-bottom: 5px solid var(--brand_blue);
   a {
     color: var(--brand_blue)
   }

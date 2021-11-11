@@ -69,12 +69,12 @@ export default {
 
 <style lang="scss">
   #logo {
-    width: 35%;
+    width: 40%;
     padding: 1rem 0;
     }
 
 #nav_menu {
-  width: 65%;
+  width: 60%;
 
   .row {
     width: 100%;
