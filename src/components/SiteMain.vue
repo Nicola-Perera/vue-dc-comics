@@ -1,8 +1,38 @@
 <template>
     <div id="Main">
+
+      <!-- content -->
       <div id="main_content">
         <div class="main_margin">
         <h1>--> Content goes here >-- </h1>
+        </div>
+      </div>
+
+      <!-- shop and subscription -->
+      <div id="purchase">
+        <div class="container main_margin">
+          <div class="row">
+            <div>
+              <img src="../img/buy-comics-digital-comics.png" alt="">
+              <a href="">DIGITAL COMICS</a>
+            </div>
+            <div>
+              <img src="../img/buy-comics-merchandise.png" alt="">
+              <a href="">DC MERCHANDISE</a>
+            </div>
+            <div>
+              <img src="../img/buy-comics-subscriptions.png" alt="">
+              <a href="">SUBSCRIPTION</a>
+            </div>
+            <div>
+              <img src="../img/buy-comics-shop-locator.png" alt="">
+              <a href="">COMIC SHOP LOCATOR</a>
+            </div>
+            <div class="row">
+              <img src="../img/buy-dc-power-visa.svg" alt="">
+              <a href="">DC POWER VISA</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -24,6 +54,26 @@ export default {
     h1 {
       font-size: 1.3rem;
       color: white;
+    }
+  }
+  #purchase {
+    background-color: #0282F9;
+    a {
+      font-size: .8rem;
+      color: white;
+    }
+    img {
+      height: 40%;
+    }
+    .row {
+      padding: 0 2rem;
+      div {
+        display: flex;
+        align-items: center;
+        &:last-child img {
+        height: 30%;
+        }
+      }
     }
   }
 </style>

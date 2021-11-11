@@ -52,7 +52,7 @@ export default {
   margin: auto;
 }
 
-.container > .row {
+.container .row {
     display: flex;
 }
 
