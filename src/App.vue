@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>ciao</h1>
     <Header />
     <Main />
     <Footer />
@@ -30,4 +29,12 @@ export default {
 //   text-align: center;
 //   color: #2c3e50;
 //   margin-top: 60px;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import '../src/assets/scss/style.css';
 </style>
