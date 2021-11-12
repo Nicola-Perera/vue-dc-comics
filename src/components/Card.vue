@@ -11,7 +11,7 @@ export default {
   name: 'card',
   components: {
       CardLayout,
-  }
+  },
   data: function () {
     return {
       games: [

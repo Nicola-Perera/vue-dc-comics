@@ -1,5 +1,5 @@
 <template>
-    <div id="Header">
+    <div id="SiteHeader">
       <div class="container main_margin">
         <div class="row">
 
@@ -60,7 +60,7 @@
 
 <script>
 export default {
-  name: 'header',
+  name: 'SiteHeader',
   components: {
 
   },

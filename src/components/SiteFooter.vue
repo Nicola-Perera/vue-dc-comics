@@ -1,5 +1,5 @@
 <template>
-    <div id="Footer">
+    <div id="SiteFooter">
 
       <!-- useful links -->
       <div id="link_section">
@@ -90,7 +90,7 @@
 
 <script>
 export default {
-  name: 'footer',
+  name: 'SiteFooter',
   components: {
 
   },
