@@ -6,6 +6,7 @@
       <div class="jumbotron"></div>
       <div class="main_margin">
             <Card />
+            <button id="load">LOAD MORE</button>
       </div>
     </div>
 
@@ -61,7 +62,14 @@ export default {
     padding: 9rem 0;
   }
   .main_margin {
-    padding: 3rem 0;
+    padding-top: 3rem;
+    text-align: center;
+    #load {
+      background-color: #0282f9;
+      color: white;
+      padding: .5rem 3rem;
+      margin-top: 2rem;
+    }
   }
 }
 #purchase {

@@ -21,6 +21,7 @@ export default {
 #CardLayout {
     margin: 1rem 0;
     h3 {
+        margin-top: .5rem;
         color: white;
         font-size: .8rem;
     }
