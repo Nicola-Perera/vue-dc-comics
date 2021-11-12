@@ -1,6 +1,8 @@
 <template>
   <div id="card">
-      <CardLayout />
+    <CardLayout v-for="cards in games"
+        :image="games.thumg"
+        :title="games.series"/>
   </div>
 </template>
 
@@ -8,9 +10,9 @@
 import CardLayout from "./components/CardLayout.vue";
 
 export default {
-  name: 'card',
-  components: {
-      CardLayout,
+    name: "card",
+    components: {
+    CardLayout,
   },
   data: function () {
     return {

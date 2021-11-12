@@ -3,8 +3,11 @@
 
       <!-- content -->
       <div id="main_content">
+
+        <!-- hero image -->
         <div class="jumbotron"></div>
         <div class="main_margin">
+          <Card />
         </div>
       </div>
 
@@ -39,10 +42,12 @@
 </template>
 
 <script>
+import Card from './components/Card.vue';
+
 export default {
   name: 'SiteMain',
   components: {
-
+    Card,
   },
 };
 </script>
