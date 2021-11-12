@@ -115,10 +115,13 @@ export default {
 </script>
 
 <style lang="scss">
-.row {
-  flex-wrap: wrap;
+#card {
+
+  .row {
+    flex-wrap: wrap;
   div {
     width: calc(100% / 6);
   }
 }
+    }
 </style>
