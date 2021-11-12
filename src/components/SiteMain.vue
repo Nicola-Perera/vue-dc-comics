@@ -60,6 +60,9 @@ export default {
     background-repeat: no-repeat;
     padding: 9rem 0;
   }
+  .main_margin {
+    padding: 3rem 0;
+  }
 }
 #purchase {
   background-color: #0282f9;

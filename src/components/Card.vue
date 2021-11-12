@@ -3,10 +3,10 @@
     <div class="container">
       <div class="row">
     <CardLayout
-      v-for="cards in games"
-      :image="cards.thumb"
-      :title="cards.series"
-      :key="cards"
+      v-for="card in games"
+      :image="card.thumb"
+      :title="card.series"
+      :key="card.series"
     />
       </div>
     </div>
