@@ -1,11 +1,15 @@
 <template>
   <div id="card">
+    <div class="container">
+      <div class="row">
     <CardLayout
       v-for="cards in games"
-      :image="games.thumb"
-      :title="games.series"
+      :image="cards.thumb"
+      :title="cards.series"
       :key="cards"
     />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -111,4 +115,10 @@ export default {
 </script>
 
 <style lang="scss">
+.row {
+  flex-wrap: wrap;
+  div {
+    width: calc(100% / 6);
+  }
+}
 </style>

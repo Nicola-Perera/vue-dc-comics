@@ -5,7 +5,7 @@
       <!-- hero image -->
       <div class="jumbotron"></div>
       <div class="main_margin">
-        <Card />
+            <Card />
       </div>
     </div>
 
