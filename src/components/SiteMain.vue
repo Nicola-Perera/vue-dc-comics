@@ -3,7 +3,11 @@
     <!-- content -->
     <div id="main_content">
       <!-- hero image -->
-      <div class="jumbotron"></div>
+      <div class="jumbotron">
+            <div class="series">
+              <h2>CURRENT SERIES</h2>
+            </div>
+      </div>
       <div class="main_margin">
             <Card />
             <button id="load">LOAD MORE</button>
@@ -60,6 +64,17 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 9rem 0;
+    position: relative;
+    .series {
+      background-color: #0282f9;
+      padding: .8rem;
+      position: absolute;
+      left: 7rem;
+      top: 16.5rem;
+      h2 {
+        color: white;
+      }
+    }
   }
   .main_margin {
     padding-top: 3rem;
